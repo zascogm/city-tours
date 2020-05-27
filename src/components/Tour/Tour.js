@@ -8,7 +8,7 @@ export default class Tour extends Component {
         const { removeTour } = this.props;
 
         return (
-            <articule className="tour">
+            <article className="tour">
                 <div className="img-container">
                     <img src={img} alt="tour" />
                     <span className="close-btn">
@@ -26,7 +26,7 @@ export default class Tour extends Component {
                     </h5>
                     <p>{info}</p>
                 </div>
-            </articule>
+            </article>
         );
     }
 }
